@@ -12,3 +12,8 @@ PS1='[\u@\h \W]\$ '
 export MOZ_ENABLE_WAYLAND=1
 export XMODIFIERS=@im=fcitx
 export QT_IM_MODULE=fcitx
+
+PATH="$PATH":"~/dotfiles/.local/scripts/"
+PATH="$PATH":"~/dotfiles/.local/scripts/tmux-sessionizer"
+
+bind '"\C-f":"tm-sh\n"' 
